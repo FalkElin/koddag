@@ -1,0 +1,29 @@
+body {
+  background-color: rgb(95, 31, 31);
+  margin: 0;
+  padding: 3rem;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+main {
+  display: flex;
+  gap: 3rem;
+  flex-wrap: wrap;
+}
+.wish-list-card {
+  background-color: rgb(36, 82, 49);
+  color: white;
+  padding: 3rem;
+  border-radius: 0.5rem;
+  border: 0.2rem solid snow;
+  width: 10rem;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.wish-list-card ul {
+  padding-left: 0;
+  list-style: decimal;
+}
